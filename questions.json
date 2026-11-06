@@ -1,0 +1,12 @@
+[
+  {"q": "What chmod value restricts the permissions of the .pem SSH key?", "keyword": "400"},
+  {"q": "Which firewall tool is enabled to allow OpenSSH on the Ubuntu server?", "keyword": "ufw"},
+  {"q": "Which PostgreSQL extension is installed for AI RAG deployments?", "keyword": "pgvector"},
+  {"q": "What is the vector dimension of the embedding column in the documents table?", "keyword": "768"},
+  {"q": "Which Python version is used in the Dockerfile base image?", "keyword": "3.10"},
+  {"q": "What is the name of the Kubernetes secret that holds the Groq API key?", "keyword": "bot-secrets"},
+  {"q": "Which tool is used to scan Docker images for vulnerabilities?", "keyword": "trivy"},
+  {"q": "Which Helm chart installs the Prometheus and Grafana monitoring stack?", "keyword": "kube-prometheus-stack"},
+  {"q": "Which tool handles GitOps sync to the Kubernetes cluster?", "keyword": "argocd"},
+  {"q": "How much does an EKS control plane cost per hour?", "keyword": null}
+]
