@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    depends_on: [qdrant, ollama]
+  qdrant:
+    image: qdrant/qdrant
+    volumes: [qdata:/qdrant/storage]
+  ollama:
+    image: ollama/ollama
+    volumes: [odata:/root/.ollama]
+volumes:
+  qdata:
+  odata:
